@@ -48,7 +48,7 @@
 body, html {
   height: 100%;
   font-family: Poppins-Regular, sans-serif;
-  background-color: lightblue;
+  background-color: #abc8e9;
 }
 
 .center-line {
@@ -271,7 +271,7 @@ iframe {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background: #9fc3ec;
+  background: #63a4eefa;
 }
 
 .wrap-contact100 {
