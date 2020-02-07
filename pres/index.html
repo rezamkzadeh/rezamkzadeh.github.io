@@ -76,7 +76,7 @@
         <!--- test
 -->
 
-        <table style="width: 60%; height:" 800px" ; class="center">
+        <table style="width: 60%; height: 800px"; class="center">
             <tr>
                 <th>
                     <div class="center" style="width: 400px; height: 550px; text-align: center; padding: 0% 0% 0% 0%; ">
@@ -138,15 +138,15 @@
 
         <div>
             <div class="container-contact100">
-                <form class="contact100-form validate-form center">
+                <form class="contact100-form validate-form center" method="POST" action="contact.php">
                     <span class="contact100-form-title">
                         Send Me A Message
                     </span>
-
+                    <?=$thankYou ?>
 
                     <div class="wrap-input100 validate-input" data-validate="Name is required">
                         <label class="label-input100" for="name">Full name</label>
-                        <input id="name" class="input100" type="text" name="name" placeholder="Enter your name...">
+                        <input id="name" class="input100" type="text" name="sender" placeholder="Enter your name...">
                         <span class="focus-input100"></span>
                     </div>
 
@@ -246,6 +246,14 @@
             <a href="https://www.linkedin.com/in/reza-mir-khalaf-zadeh-53032a91/" target="_blank">
 
                 <img src="images/linkdin.png" height="100px" width="100px">
+            </a>
+            <a href="https://www.facebook.com/rezamkzadeh" target="_blank">
+
+                <img src="images/facebook.png" height="100px" width="100px">
+            </a>
+            <a href="https://twitter.com/RezaMkZadeh" target="_blank">
+
+                <img src="images/twitter.png" height="100px" width="90px">
             </a>
         </div>
         <footer>
